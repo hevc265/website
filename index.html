@@ -16,7 +16,8 @@
         content="Arcane Dimensions é um mod do jogo Quake (1996) que reescreve totalmente a lógica do jogo, adicionando elementos como física de projeteis, ambientes destrutíveis e novos inimigos." />
 
     <title>Arcane Dimensions</title>
-    <link rel="stylesheet" type="text/css" href="/css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 </head>
 
@@ -29,20 +30,23 @@
 
 
     <nav>
-        <a href="#">HOME</a>
-        <a href="#">MÍDIA</a>
-        <a href="https://www.moddb.com/mods/arcane-dimensions/downloads/arcane-dimensions-180-with-patch-1">DOWNLOAD</a>
-        <a href="#">REQUISITOS</a>
+        <a class="a-menu" href="#menu">HOME</a>
+        <a class="a-menu" href="#midia">MÍDIA</a>
+        <a class="a-menu"
+            href="https://www.moddb.com/mods/arcane-dimensions/downloads/arcane-dimensions-180-with-patch-1">DOWNLOAD</a>
+        <a class="a-menu" href="#requisitos">REQUISITOS</a>
+
     </nav>
 
 
-    <article>
+    <article id="menu">
 
         <h1>Arcane Dimensions</h1>
 
         <p>
             Desenvolvido ao longo de anos por uma grande comunidade de designers, artistas e programadores. Arcane
-            Dimensions é um mod do jogo Quake (1996) que reescreve totalmente a lógica do jogo, adicionando elementos
+            Dimensions é um mod do jogo <span id="quake">Quake (1996)</span> que reescreve totalmente a lógica do jogo,
+            adicionando elementos
             como física de projeteis, ambientes destrutíveis e novos inimigos.
         </p>
 
@@ -73,65 +77,57 @@
 
 
     <section id="midia">
-        <h2>Mídia</h2>
-        <table>
-            <tr>
-                <td>
-                    <img src="img/ad_azad.png" alt="Arcane Dimensions" title="Screenshot do mapa Azad.">
-                </td>
-                <td>
-                    <img src="img/ad_grendel.png" alt="Arcane Dimensions" title="Screenshot do mapa Grendel.">
-                </td>
-                <td>
-                    <img src="img/ad_tears.png" alt="Arcane Dimensions"
-                        title="Screenshot do mapa Tears of the False God.">
-                </td>
-                <td>
-                    <img src="img/akalakha.png" alt="Arcane Dimensions" title="Screenshot do mapa Akalakha.">
-                </td>
 
-            </tr>
-            <td>
-                Azad
-            </td>
-            <td>
-                Grendel
-            </td>
-            <td>
-                Tears of the False God
-            </td>
-            <td>
-                Akalakha
-            </td>
-            <tr>
-                <td>
+        
+        <h2>Mídia</h2>
+        <div id="container">
+            <div class="card">
+                <img src="img/ad_azad.png" alt="">
+                <div class="card-content">
+                    <h3>Azad</h3>
                     <p>
                         Um castelo localizado numa região polar.
                     </p>
-                </td>
-                <td>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="img/ad_grendel.png" alt="">
+                <div class="card-content">
+                    <h3>Grendel</h3>
                     <p>
                         Um lugar macabro e misterioso.
                     </p>
-                </td>
-                <td>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="img/ad_tears.png" alt="">
+                <div class="card-content">
+                    <h3>Tears of the False God</h3>
                     <p>
                         Um paraíso nas alturas.
                     </p>
-                </td>
-                <td>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="img/akalakha.png" alt="">
+                <div class="card-content">
+                    <h3>Akalakha</h3>
                     <p>
                         Um lugar abandonado por todos.
                     </p>
-                </td>
-            </tr>
-            <tr>
-
-            </tr>
-        </table>
+                </div>
+            </div>
 
 
+        </div>
 
+    
     </section>
 
     <section id="trailer">
@@ -156,7 +152,7 @@
 
     <footer>
         <p>
-            Desenvolvido por <a href="https://github.com/HEVC265" target="_blank">Davi Souza</a> - 2026
+            Desenvolvido por <a class="a-menu" href="https://github.com/HEVC265" target="_blank">Davi Souza</a> - 2026
         </p>
     </footer>
 
