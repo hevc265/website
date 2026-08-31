@@ -82,16 +82,16 @@ article {
 }
 
 
-ul{
+ul {
     list-style-type: circle;
-    padding-top: 20px ;
-    padding-bottom: 20px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
-li  {
+li {
     font: 0.8rem 'Adamina', 'Arial', 'Helvetica', sans-serif;
-    margen-bottom: 10px ;
+    margen-bottom: 10px;
 
 }
 
@@ -139,8 +139,12 @@ footer {
     text-align: center;
     background-color: #a4d4ff;
     /* blue */
-    text-align: center;
     padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza na horizontal */
+    align-items: center;
+    /* Centraliza na vertical */
 
 }
 
@@ -181,7 +185,7 @@ p {
 
 
 #quake {
-    font-weight: bold; 
+    font-weight: bold;
 
 }
 
@@ -196,14 +200,20 @@ ul {
 }
 
 
-#container{
+#container {
     display: flex;
 
 }
 
 
-.img-maps {
-    width: 50%;
+.card {
+    width: 25%;
+    margin: 10px;
+    background-color: #ffffff;
+}
 
 
+.card-content {
+    padding: 10px;
+    text-align: center;
 }
