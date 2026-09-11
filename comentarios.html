@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Davi" />
+
+    <meta name="keywords" content="Quake, AD, Arcane Dimensions, mod" />
+
+    <meta name="description"
+        content="Arcane Dimensions é um mod do jogo Quake (1996) que reescreve totalmente a lógica do jogo, adicionando elementos como física de projeteis, ambientes destrutíveis e novos inimigos." />
+
+    <title>Arcane Dimensions</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <img src="img/banner.png" alt="Arcane Dimensions" title="Banner do Arcane Dimensions">
+    </header>
+
+
+    <nav>
+        <a class="a-menu" href="index.html">HOME</a>
+        <a class="a-menu" href="comentarios.html">COMENTÁRIOS</a>
+
+    </nav>
+
+    <section id="comentarios">
+
+        <h1>Comentários</h1>
+
+        <p>
+            Aqui você pode deixar seus comentários sobre o mod Arcane Dimensions. Sua opinião é muito importante para
+            nós!
+        </p>
+
+        <form name="comentario" method="get" action="comentarios.html">
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome_completo" type="text" placeholder="Digite seu nome completo." required autofocus /> 
+
+            <label for="email">E-mail:</label>
+            <input focus type="email" name="email" id="email" placeholder="Digite seu e-mail." /> 
+
+            <label for="msg">Comentário:</label>
+            <textarea id="msg" cols="53" rows="6" placeholder="Digite seu comentário aqui..."></textarea>
+
+            <div id="botoes-form">
+                <input type="submit" name="botao_enviar" value="Enviar" />
+                <input type="reset" name="botao_limpar" value="Limpar" />
+            </div>
+        </form>
+    
+
+    <footer>
+        <p>
+            Desenvolvido por <a href="https://github.com/HEVC265" target="_blank">Davi Souza</a> em 2026.
+        </p>
+    </footer>
+
+</body>
+
+</html>
